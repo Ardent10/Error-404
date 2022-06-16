@@ -3,8 +3,6 @@ import HomePage from "../Main-page/HomePage";
 import {BrowserRouter as Router, Switch, Route,} from "react-router-dom";
 import {TOP_SECTION,Navbar} from "../../Module/General";
 import MenuIcon from '@mui/icons-material/Menu';
-import { PDFDownloadLink, Document, Page } from '@react-pdf/renderer';
-import DownloadForOfflineIcon from '@mui/icons-material/DownloadForOffline';
 import CloseIcon from '@mui/icons-material/Close';
 import styled from "styled-components";
 import "./styles.scss";
@@ -45,20 +43,20 @@ const Wrapper = styled.div`
   } */}
 `;
 
-function Popup(props) {
-    return (props.trigger) ? 
-    (
-      <div className="popup">
-        <div className="popup-inner">
-          <button className="close-btn">Close</button>
-          {props.children}
-        </div>
-      </div>
-    ) : "";
+// function Popup(props) {
+//     return (props.trigger) ? 
+//     (
+//       <div className="popup">
+//         <div className="popup-inner">
+//           <button className="close-btn">Close</button>
+//           {props.children}
+//         </div>
+//       </div>
+//     ) : "";
 
-}
+// }
 
-const NAVBAR = ({}) => {
+const NAVBAR = () => {
 
   const [toggle, setToggle] = useState(true);
 
@@ -123,15 +121,15 @@ const NAVBAR = ({}) => {
                       {item.dropdown && 
                         ( <ul className="nav_submenu">
                             <li className="nav-submenu-item">
-                              <img src={participants} className="resource-icons"/>
+                              <img src={participants} className="resource-icons" alt="resourse"/>
                               <a href={ParticipantGuide} download="Error 404 Participant's Guide.pdf">Participants</a>
                             </li>
                             <li className="nav-submenu-item">
-                              <img src={mentor} className="resource-icons"/>
+                              <img src={mentor} className="resource-icons" alt="resourse"/>
                               <a href={MentorGuide} download="Error 404 Mentor's Guide.pdf">Mentors</a>
                             </li>
                             <li className="nav-submenu-item">
-                              <img src={sponsor} className="resource-icons"/>
+                              <img src={sponsor} className="resource-icons" alt="resourse"/>
                               <a href={SponsorGuide} download="Error 404 Sponsor's Guide.pdf">Sponsors</a>
                             </li>
                           </ul>  

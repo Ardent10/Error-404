@@ -9,7 +9,7 @@ import {Logo, LogoSectionAbout} from "../logo-section/logoSection.jsx";
 import {FirstPrize, PrizeHeading} from "../prize tracks/prizes.jsx";
 import {Prizeinfo,Tracks} from "../../Module/General";
 import {Accordion} from "../FAQ/faq.jsx";
-import {Sponsor, SponsorsHead, SponsorUS,Micro, MicroHead} from "../Sponsors/sponsors.jsx";
+import {SponsorsHead, SponsorUS,Micro, MicroHead} from "../Sponsors/sponsors.jsx";
 import CountDown from "../count-down/countDown.jsx";
 // import Birds from "../Birds/birds.jsx";
 import Footer from "../Footer/footer1.jsx";
@@ -27,18 +27,18 @@ import {
 
 // javascript Map for sponsors
 
-function SponsorGroup(props) {
-  return (
-    <Row>
-      {props.map(s => (
-        <Col className="" sm={12} lg={4} md={6}>
-          {" "}
-          <Sponsor srcx={s.src} />{" "}
-        </Col>
-      ))}
-    </Row>
-  );
-}
+// function SponsorGroup(props) {
+//   return (
+//     <Row>
+//       {props.map(s => (
+//         <Col className="" sm={12} lg={4} md={6}>
+//           {" "}
+//           <Sponsor srcx={s.src} />{" "}
+//         </Col>
+//       ))}
+//     </Row>
+//   );
+// }
 
 // javascript Map for sponsors end
 
@@ -102,7 +102,7 @@ export default function HomePage(props) {
               <Myinfo />
             </Col>
             <Col className="d-image" sm={12} lg={5} md={4}>
-              <img src={TOP_SECTION.IMG_SRC} />
+              <img src={TOP_SECTION.IMG_SRC} alt="resource"/>
             </Col>
           </Row>
 
