@@ -24,7 +24,7 @@ function About() {
       <img className="error404" src={error404} alt="" />
       <h2 className="h2">{TOP_SECTION.TITLE2}</h2>
       {/* <p>{TOP_SECTION.host}</p> */}
-      <p>Hosted by<a target="_blank" href="https://getmicro.co/" style={{color:'#F1507B'}}> Micro.</a></p>
+      <p>Hosted by<a target="_blank" rel="noreferrer" href="https://getmicro.co/" style={{color:'#F1507B'}}> Micro.</a></p>
       <MytypedComponent />
     </div>
   );
@@ -61,7 +61,7 @@ function Myinfo() {
         {" "}
         <Btn class="sponsor" type="Register" overlay="Fill the form" />
       </a>
-      <a target="_blank" href= {TOP_SECTION.DISCORD_LINK}
+      <a target="_blank" rel="noreferrer" href= {TOP_SECTION.DISCORD_LINK}
       >
         {" "}
         <Btn class="register" type="Join Discord" overlay="Stay updated" />
