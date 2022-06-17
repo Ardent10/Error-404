@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Error-404/static/css/main.f44006c7.chunk.css",
-    "main.js": "/Error-404/static/js/main.8068f13d.chunk.js",
-    "main.js.map": "/Error-404/static/js/main.8068f13d.chunk.js.map",
+    "main.js": "/Error-404/static/js/main.7c5fab23.chunk.js",
+    "main.js.map": "/Error-404/static/js/main.7c5fab23.chunk.js.map",
     "runtime-main.js": "/Error-404/static/js/runtime-main.6e33d284.js",
     "runtime-main.js.map": "/Error-404/static/js/runtime-main.6e33d284.js.map",
     "static/js/2.eb71b386.chunk.js": "/Error-404/static/js/2.eb71b386.chunk.js",
@@ -12,16 +12,13 @@
     "static/js/2.eb71b386.chunk.js.LICENSE.txt": "/Error-404/static/js/2.eb71b386.chunk.js.LICENSE.txt",
     "static/media/1pass.fe1b7aaa.png": "/Error-404/static/media/1pass.fe1b7aaa.png",
     "static/media/404.f1fa1760.png": "/Error-404/static/media/404.f1fa1760.png",
-    "static/media/404nobg.f8a64a55.png": "/Error-404/static/media/404nobg.f8a64a55.png",
     "static/media/ACF.896fe374.png": "/Error-404/static/media/ACF.896fe374.png",
     "static/media/AbhayKumar.397ce1f2.jpeg": "/Error-404/static/media/AbhayKumar.397ce1f2.jpeg",
     "static/media/Error 404 Mentor's Guide.8b7c3515.pdf": "/Error-404/static/media/Error 404 Mentor's Guide.8b7c3515.pdf",
     "static/media/Error 404 Participant's Guide.7f3eb7ec.pdf": "/Error-404/static/media/Error 404 Participant's Guide.7f3eb7ec.pdf",
     "static/media/Error 404 Sponsor's Guide.d71ed4ec.pdf": "/Error-404/static/media/Error 404 Sponsor's Guide.d71ed4ec.pdf",
-    "static/media/Ryah.92eb9a11.jpg": "/Error-404/static/media/Ryah.92eb9a11.jpg",
     "static/media/SiddhantPawar.583917cb.jpeg": "/Error-404/static/media/SiddhantPawar.583917cb.jpeg",
     "static/media/YashKataria.f33d4dc1.jpeg": "/Error-404/static/media/YashKataria.f33d4dc1.jpeg",
-    "static/media/ak.d1e4c527.jpeg": "/Error-404/static/media/ak.d1e4c527.jpeg",
     "static/media/ar.13f2b090.jpeg": "/Error-404/static/media/ar.13f2b090.jpeg",
     "static/media/ashirwad.7cb96fea.jpg": "/Error-404/static/media/ashirwad.7cb96fea.jpg",
     "static/media/boy.e1bb0956.png": "/Error-404/static/media/boy.e1bb0956.png",
@@ -51,6 +48,6 @@
     "static/js/runtime-main.6e33d284.js",
     "static/js/2.eb71b386.chunk.js",
     "static/css/main.f44006c7.chunk.css",
-    "static/js/main.8068f13d.chunk.js"
+    "static/js/main.7c5fab23.chunk.js"
   ]
 }
