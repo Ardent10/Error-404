@@ -220,7 +220,7 @@ const Timeline = [
       color: '#FFDB14'
     },
       link: {
-          url: 'https://google.com',
+          url: 'https://meet.google.com/',
           text: 'Meet Link'
       }
   },
@@ -294,7 +294,7 @@ const Timeline = [
     color: 'purple'
   },
       link: {
-          url: 'https://medium.com/@popflorin1705',
+          url: 'https://meet.google.com/',
           text: 'Meet Link'
       }
   }
