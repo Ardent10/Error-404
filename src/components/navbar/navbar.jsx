@@ -1,10 +1,7 @@
 import React, {useState, useEffect, useRef} from "react";
-import MenuIcon from '@mui/icons-material/Menu';
 import { HashLink as Link } from 'react-router-hash-link';
 import {TOP_SECTION,} from "../../Module/General";
-// import {Btn} from "../Top-division-components/Top-division-components";
 import styled from "styled-components";
-// import toggler from "../toggle-button/toggle";
 
 import "./styles.scss";
 

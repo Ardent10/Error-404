@@ -18,8 +18,7 @@ import ParticipantGuide from "./Error 404 Participant's Guide.pdf";
 const Wrapper = styled.div`
   display: flex;
   width:100%; 
-  ${'' /* justify-content: space-between; */}
-  ${'' /* padding-top: 10px; */}
+ 
 
   .Volunteer{
     margin: -10px 0 0  100px;
@@ -28,33 +27,7 @@ const Wrapper = styled.div`
     height: 5.5rem;
   }
 
-  ${'' /* @media (max-width: 470px) {
-    margin: 0;
-    display: ${props => (props.toggle ? "none" : "static")};
-    height: 100vh;
-    width: 100vw;
-    position: fixed;
-    top: ${props => (props.toggle ? "-1000px" : "0px")};
-    transition: top 1s;
-    .nav-content {
-      height: 35%;
-      background-color: rgba(50, 13, 136);
-    }
-  } */}
 `;
-
-// function Popup(props) {
-//     return (props.trigger) ? 
-//     (
-//       <div className="popup">
-//         <div className="popup-inner">
-//           <button className="close-btn">Close</button>
-//           {props.children}
-//         </div>
-//       </div>
-//     ) : "";
-
-// }
 
 const NAVBAR = () => {
 
@@ -82,25 +55,6 @@ const NAVBAR = () => {
     console.log(navigation);
   }, []);
 
-  // const handleOutsideClick = (event, ref) => {
-  //   if (!ref.current.contains(event.target)) {
-  //     setToggle(true);
-  //   } else {
-  //     setToggle(false);
-  //   }
-  // };
-
-  // useEffect(() => {
-  //   document.addEventListener("mousedown", e =>
-  //     handleOutsideClick(e, navigation)
-  //   );
-
-  //   return () => {
-  //     document.removeEventListener("mousedown", e =>
-  //       handleOutsideClick(e, navigation)
-  //     );
-  //   };
-  // }, []);
 
   return (
     <Router>
@@ -149,14 +103,7 @@ const NAVBAR = () => {
             }  
         </div>
 
-      </nav>  
-     
-     
-
-
-
-
-
+      </nav> 
 
       <Switch>
         <Route path="/">
