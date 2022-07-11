@@ -20,10 +20,9 @@ export default function Footer() {
          <h1>Micro.</h1>
          <hr />
          <div className="Desc">
-         Making Investments Easy For Everyone. 
-         Investors with as little as Rs 1000/- 
-         can also invest and reap its benefits.
-
+            Making Investments Easy For Everyone. 
+            Investors with as little as Rs 5000 
+            can also invest and reap its benefits.
          </div>
         
         </div>
@@ -59,7 +58,10 @@ export default function Footer() {
             {/* </ul> */}
               <Media/>
               <div className="tagline">
-                <h5>Building a community of Technology Enthusiasts</h5>
+                <h5>Making Investments <br />
+                Simple.   Quick.   Accessible. <br />
+                Aiming to familiarize fractional investment to all demographics.
+                </h5>
               </div>
         </div>
     

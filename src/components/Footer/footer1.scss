@@ -8,12 +8,17 @@
   text-align: center;
 }
 .footer h1{
-  color: #ffffff;
+  color: #F1507B;
   font-weight: 900;
 }
 .tagline{
-  width: 50%;
-    margin: 0 100px;
+  width: 80%;
+  margin: 0 32px;
+}
+
+.tagline h4{
+  font-size: 16px;
+  color: #fff!important;
 }
 
 .footer h5{
@@ -65,7 +70,7 @@
 }
 
 .about {
-  padding: 25px 20px;
+  padding: 40px 20px;
   display: flex; 
   // flex: 0.5;
   width: 25%;

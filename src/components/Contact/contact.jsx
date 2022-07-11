@@ -33,7 +33,7 @@ export default function Contact(){
               {/* <img src= "https://img.icons8.com/color/48/000000/phone.png" */}
                   {/* // {phone}  */}
                   {/* class="icon" alt="" /> */}
-              <h4 style={{'color':'#f76e92'}}>+91 8660626844</h4>
+              <h4 style={{'color':'#f76e92'}}>+91 79960 80080</h4>
             </div>
             <div class="information">
               <LanguageIcon className='icon'/>

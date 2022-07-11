@@ -119,8 +119,9 @@ h1 {
 
 .timeline-item-content a::after {
     color: #fff;
-    content: ' ►';
+    content: '\25BA';
     font-size: 12px;
+    margin: 0 5px;
 }
 .timeline-item-content a {
     color: #fff;
