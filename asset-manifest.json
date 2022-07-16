@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/Error-404/static/css/main.2b80f2c1.chunk.css",
-    "main.js": "/Error-404/static/js/main.599f88ea.chunk.js",
-    "main.js.map": "/Error-404/static/js/main.599f88ea.chunk.js.map",
+    "main.css": "/Error-404/static/css/main.2e25dcbc.chunk.css",
+    "main.js": "/Error-404/static/js/main.367e6739.chunk.js",
+    "main.js.map": "/Error-404/static/js/main.367e6739.chunk.js.map",
     "runtime-main.js": "/Error-404/static/js/runtime-main.6e33d284.js",
     "runtime-main.js.map": "/Error-404/static/js/runtime-main.6e33d284.js.map",
-    "static/js/2.eb71b386.chunk.js": "/Error-404/static/js/2.eb71b386.chunk.js",
-    "static/js/2.eb71b386.chunk.js.map": "/Error-404/static/js/2.eb71b386.chunk.js.map",
+    "static/js/2.76458af5.chunk.js": "/Error-404/static/js/2.76458af5.chunk.js",
+    "static/js/2.76458af5.chunk.js.map": "/Error-404/static/js/2.76458af5.chunk.js.map",
     "index.html": "/Error-404/index.html",
-    "static/css/main.2b80f2c1.chunk.css.map": "/Error-404/static/css/main.2b80f2c1.chunk.css.map",
-    "static/js/2.eb71b386.chunk.js.LICENSE.txt": "/Error-404/static/js/2.eb71b386.chunk.js.LICENSE.txt",
+    "static/css/main.2e25dcbc.chunk.css.map": "/Error-404/static/css/main.2e25dcbc.chunk.css.map",
+    "static/js/2.76458af5.chunk.js.LICENSE.txt": "/Error-404/static/js/2.76458af5.chunk.js.LICENSE.txt",
     "static/media/1pass.fe1b7aaa.png": "/Error-404/static/media/1pass.fe1b7aaa.png",
     "static/media/404.f1fa1760.png": "/Error-404/static/media/404.f1fa1760.png",
     "static/media/ACF.896fe374.png": "/Error-404/static/media/ACF.896fe374.png",
     "static/media/AbhayKumar.397ce1f2.jpeg": "/Error-404/static/media/AbhayKumar.397ce1f2.jpeg",
-    "static/media/Error 404 Mentor's Guide.8b7c3515.pdf": "/Error-404/static/media/Error 404 Mentor's Guide.8b7c3515.pdf",
-    "static/media/Error 404 Participant's Guide.7f3eb7ec.pdf": "/Error-404/static/media/Error 404 Participant's Guide.7f3eb7ec.pdf",
-    "static/media/Error 404 Sponsor's Guide.d71ed4ec.pdf": "/Error-404/static/media/Error 404 Sponsor's Guide.d71ed4ec.pdf",
+    "static/media/Error 404 Mentor's Guide.899f3ced.pdf": "/Error-404/static/media/Error 404 Mentor's Guide.899f3ced.pdf",
+    "static/media/Error 404 Participant's Guide.4f347b11.pdf": "/Error-404/static/media/Error 404 Participant's Guide.4f347b11.pdf",
+    "static/media/Error 404 Sponsor's Guide.98621bc9.pdf": "/Error-404/static/media/Error 404 Sponsor's Guide.98621bc9.pdf",
     "static/media/SiddhantPawar.583917cb.jpeg": "/Error-404/static/media/SiddhantPawar.583917cb.jpeg",
     "static/media/YashKataria.f33d4dc1.jpeg": "/Error-404/static/media/YashKataria.f33d4dc1.jpeg",
     "static/media/ar.13f2b090.jpeg": "/Error-404/static/media/ar.13f2b090.jpeg",
@@ -46,8 +46,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.6e33d284.js",
-    "static/js/2.eb71b386.chunk.js",
-    "static/css/main.2b80f2c1.chunk.css",
-    "static/js/main.599f88ea.chunk.js"
+    "static/js/2.76458af5.chunk.js",
+    "static/css/main.2e25dcbc.chunk.css",
+    "static/js/main.367e6739.chunk.js"
   ]
 }
