@@ -56,8 +56,8 @@ export default function Footer() {
                 </a>
               )} */}
             {/* </ul> */}
-              <Media/>
               <div className="tagline">
+                <Media/>
                 <h5>Making Investments <br />
                 Simple.   Quick.   Accessible. <br />
                 Aiming to familiarize fractional investment to all demographics.
