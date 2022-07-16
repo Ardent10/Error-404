@@ -9,11 +9,16 @@ export default function Media() {
     <div className="media">
       {/* <p>Our Socials</p> */}
      
-      {/* <div className="single ">
+      <div className="single ">
         <a rel="noreferrer" target="_blank" href={SOCIALS.instagram}>
         <SocialIcon url="https://instagram.com" fgColor="#fff" />
         </a>
-      </div> */}
+      </div>
+      <div className="single">
+        <a rel="noreferrer" target="_blank" href={SOCIALS.facebook}>
+        <SocialIcon network="facebook" fgColor="#fff"/>
+        </a>
+      </div>
 
       <div className="single">
         <a rel="noreferrer" target="_blank" href={SOCIALS.linkedin}>
@@ -26,11 +31,6 @@ export default function Media() {
         </a>
       </div>
 
-      {/* <div className="single">
-        <a rel="noreferrer" target="_blank" href={SOCIALS.twitter}>
-        <SocialIcon network="twitter" fgColor="#fff"/>
-        </a>
-      </div> */}
 
       {/* <div className="single">
         <a rel="noreferrer" target="_blank" href={SOCIALS.devpost}>

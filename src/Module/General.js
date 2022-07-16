@@ -124,11 +124,12 @@ const TOP_SECTION = {
 };
 
 const SOCIALS = {
-  instagram: "https://www.instagram.com/",
+  instagram: "https://www.instagram.com/getmicro.co/",
   discord: "https://discord.com/",
   linkedin: "https://www.linkedin.com/company/get-micro/",
-  twitter: "https://twitter.com",
-  web: "https://getmicro.co/",
+  facebook: "https://www.facebook.com/getmicro.co/",
+  // web: "https://getmicro.co/",
+  web: "https://www.instagram.com/getmicro.co/",
   email: "mailto:404error@getmicro.co",
   mail: "hello@abcd.tech"
 };
@@ -499,7 +500,7 @@ const frequentlyAskedQuestions  = [
       },
       {
         label: "What is Team Size?",
-        content: "Team Size can be 1-3 members."
+        content: "Team Size can be 1-4 members."
       },
       {
         label: "I'm a beginner. Am I eligible to participate?",
@@ -507,7 +508,7 @@ const frequentlyAskedQuestions  = [
       },
       {
         label: "I just graduated. Can I still join this event?",
-        content: "Yes, all the school and college students including the students graduated this year are invited. Even working professionals and people who don't have a formal education are also welcomed.        "
+        content: "Yes, all the school and college students including the students graduated this year are invited. Even working professionals < 3 years and people who don't have a formal education are also welcomed."
       }
     ],
     [
