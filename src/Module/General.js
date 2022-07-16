@@ -128,8 +128,8 @@ const SOCIALS = {
   discord: "https://discord.com/",
   linkedin: "https://www.linkedin.com/company/get-micro/",
   facebook: "https://www.facebook.com/getmicro.co/",
-  // web: "https://getmicro.co/",
-  web: "https://www.instagram.com/getmicro.co/",
+  web: "https://getmicro.co/",
+  // web: "https://www.instagram.com/getmicro.co/",
   email: "mailto:404error@getmicro.co",
   mail: "hello@abcd.tech"
 };
