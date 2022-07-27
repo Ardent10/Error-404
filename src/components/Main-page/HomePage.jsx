@@ -15,6 +15,7 @@ import CountDown from "../count-down/countDown.jsx";
 import Footer from "../Footer/footer1.jsx";
 import {Member,} from "../team/team.jsx";
 import TimelineItem from "../Timeline/Timeline.jsx";
+import unstop from "../../Module/Assets/sponsorsLogos/unstop.svg";
 
 import {
   TOP_SECTION,
@@ -31,6 +32,9 @@ import {
 function SponsorGroup(props) {
   return (
     <Row>
+    {/* <PrizeHeading type="OUR SPONSORS" className="subheading" id="timeline"/> */}
+    <h1 className="subheading">OUR SPONSORS</h1>
+    <hr className="hr"/>
       {props.map(s => (
         <Col className="" sm={12} lg={4} md={6}>
           {" "}
@@ -193,9 +197,20 @@ export default function HomePage(props) {
             <hr className="hr"/>
             <SponsorUS />
             <SponsorsHead />
+
+            {/* <PrizeHeading type="TITLE SPONSORS" className="subheading" id="timeline"/> */}
+            <h1 className="subheading">TITLE SPONSORS</h1>
+            <hr className="hr"/>
+            <img src={unstop} className="unstop-logo" alt="unstop" />
           {sponsorLogos.map(SponsorGroup)}
           </Row>
         </div>
+
+        {/* <Row className="sponsorSection" id="sponsors">
+          <SponsorsHead />
+          <SponsorUS />
+          {sponsorLogos.map(SponsorGroup)}
+        </Row> */}
 
         {/* ********Sponsors ending here ***** */}
 

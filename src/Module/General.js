@@ -13,6 +13,7 @@ import ll from "./Assets/sponsorsLogos/ll.png";
 import gfg from "./Assets/sponsorsLogos/gfg.png";
 import jetB from "./Assets/sponsorsLogos/jetb.png";
 import xyz from "./Assets/sponsorsLogos/xyz.svg";
+import unstop from "./Assets/sponsorsLogos/unstop.svg";
 import ACF from "./Assets/sponsorsLogos/ACF.png";
 import Image404 from "../components/Top-division-components/404.png";
 import aboutImage from "../components/logo-section/cyborg.png";
@@ -484,16 +485,19 @@ const JudgesInfo = [
  */
 
 const sponsorLogos = [
-  [
+   [
     {
+      name: "JET BRAINS",
       src: jetB,
       link: "https://www.jetbrains.com/"
     }, 
     {
+      name: "XYZ",
       src: xyz,
       link: "https://gen.xyz/"
     }, 
     {
+      name: "Geeks For Geeks",
       src: gfg,
       link: "https://www.geeksforgeeks.org/"
     }], //Array 1

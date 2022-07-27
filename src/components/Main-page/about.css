@@ -282,6 +282,36 @@ top: -50px;
   margin: auto;
 }
 
+.subheading{
+  font-family: "Poppins" !important;
+  padding-top: 40px;
+  margin-bottom: 2rem;
+  font-weight: 700;
+  color: #fff;
+  font-size: 4rem;
+}
+
+.unstop-logo{
+  width: 25rem;
+  display: inline-block;
+  margin: 3rem;
+}
+
+.unstop-logo{
+ 
+  -webkit-animation: unstop 1s infinite  alternate;
+  animation: unstop 1s infinite  alternate;
+ }
+ @-webkit-keyframes unstop {
+   0% { transform: translateY(0); }
+   100% { transform: translateY(-10px); }
+ }
+ @keyframes unstop {
+   0% { transform: translateY(0); }
+   100% { transform: translateY(-10px); }
+ }
+
+
 
 @media all and (min-width: 768px) and (max-width: 1024px) { 
   
