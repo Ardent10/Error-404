@@ -7,7 +7,7 @@
 //   transform: scale(1.1);
 // }
 .Sponsor img{
-    width: 25rem;
+    width: 20rem;
     display: inline-block;
     margin: 0;
 }
@@ -29,7 +29,7 @@ Btn .sponsor_btn{
 .shead{
     color: #fff;
     font-size: 2rem;
-    margin: 1rem 5rem 2rem;
+    margin: 1rem 5rem 8rem;
 }
 
 // .sponsorUS {
@@ -60,9 +60,9 @@ Btn .sponsor_btn{
   }
   @-webkit-keyframes mover {
     0% { transform: translateY(0); }
-    100% { transform: translateY(-20px); }
+    100% { transform: translateY(-10px); }
   }
   @keyframes mover {
     0% { transform: translateY(0); }
-    100% { transform: translateY(-20px); }
+    100% { transform: translateY(-10px); }
   }

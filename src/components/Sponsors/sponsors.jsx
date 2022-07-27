@@ -18,7 +18,9 @@ function SponsorsHead() {
 function Sponsor(props) {
   return (
     <div className="Sponsor ">
+    <a href={props.link}>
       <img src={props.srcx} alt="error404hacks"></img>
+    </a>
     </div>
   );
 }

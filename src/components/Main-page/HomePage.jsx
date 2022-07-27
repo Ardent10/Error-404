@@ -9,7 +9,7 @@ import {Logo, LogoSectionAbout} from "../logo-section/logoSection.jsx";
 import {FirstPrize, PrizeHeading} from "../prize tracks/prizes.jsx";
 import {Prizeinfo,Tracks} from "../../Module/General";
 import {Accordion} from "../FAQ/faq.jsx";
-import {SponsorsHead, SponsorUS,Micro, MicroHead} from "../Sponsors/sponsors.jsx";
+import {SponsorsHead, SponsorUS,Micro, MicroHead,Sponsor} from "../Sponsors/sponsors.jsx";
 import CountDown from "../count-down/countDown.jsx";
 // import Birds from "../Birds/birds.jsx";
 import Footer from "../Footer/footer1.jsx";
@@ -21,24 +21,25 @@ import {
   TeamInfo,
   JudgesInfo,
   organizers,
+  sponsorLogos,
   frequentlyAskedQuestions,
   Timeline,
 } from "../../Module/General";
 
 // javascript Map for sponsors
 
-// function SponsorGroup(props) {
-//   return (
-//     <Row>
-//       {props.map(s => (
-//         <Col className="" sm={12} lg={4} md={6}>
-//           {" "}
-//           <Sponsor srcx={s.src} />{" "}
-//         </Col>
-//       ))}
-//     </Row>
-//   );
-// }
+function SponsorGroup(props) {
+  return (
+    <Row>
+      {props.map(s => (
+        <Col className="" sm={12} lg={4} md={6}>
+          {" "}
+          <Sponsor srcx={s.src} link={s.link} />{" "}
+        </Col>
+      ))}
+    </Row>
+  );
+}
 
 // javascript Map for sponsors end
 
@@ -184,12 +185,15 @@ export default function HomePage(props) {
           <SponsorUS />
           {sponsorLogos.map(SponsorGroup)}
         </Row> */}
+
+
         <div id="sponsors">
           <Row className="sponsorsection">
             <PrizeHeading type="Sponsors" />
             <hr className="hr"/>
             <SponsorUS />
             <SponsorsHead />
+          {sponsorLogos.map(SponsorGroup)}
           </Row>
         </div>
 

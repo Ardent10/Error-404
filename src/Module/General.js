@@ -10,6 +10,9 @@ import qoom from "./Assets/sponsorsLogos/qoom.svg";
 import sublime from "./Assets/sponsorsLogos/sublime.png";
 import egg from "./Assets/sponsorsLogos/egg.png";
 import ll from "./Assets/sponsorsLogos/ll.png";
+import gfg from "./Assets/sponsorsLogos/gfg.png";
+import jetB from "./Assets/sponsorsLogos/jetb.png";
+import xyz from "./Assets/sponsorsLogos/xyz.svg";
 import ACF from "./Assets/sponsorsLogos/ACF.png";
 import Image404 from "../components/Top-division-components/404.png";
 import aboutImage from "../components/logo-section/cyborg.png";
@@ -195,7 +198,7 @@ const Tracks =  [
         "Make cool Web app using any technology of your choice that solves any real world problem and your project will qualify for this prize track."
     },
     {
-      icon: <i class="first fas fa-4x fa-trophy"></i>,
+      icon: <i class="fa-solid fa-mobile-notch"></i>,
       type: " Mobile Development",
       content: "Whether it is Android/ios or Flutter/React native it's your call make a project in this domain get some hands-on experience of software engineering."
     },
@@ -481,10 +484,26 @@ const JudgesInfo = [
  */
 
 const sponsorLogos = [
-  [{src: cfc}, {src: sublime}, {src: echoAR}], //Array 1
-  [{src: taskade}, {src: Replit}, {src: qoom}], //Array 2
-  [{src: interviewC}, {src: pass}, {src: glimpse}], //Array 3
-  [{src: egg}, {src: ll}, {src: ACF}] //Array 4
+  [
+    {
+      src: jetB,
+      link: "https://www.jetbrains.com/"
+    }, 
+    {
+      src: xyz,
+      link: "https://gen.xyz/"
+    }, 
+    {
+      src: gfg,
+      link: "https://www.geeksforgeeks.org/"
+    }], //Array 1
+
+
+
+  // [{src: cfc}, {src: sublime}, {src: echoAR}], //Array 1
+  // [{src: taskade}, {src: Replit}, {src: qoom}], //Array 2
+  // [{src: interviewC}, {src: pass}, {src: glimpse}], //Array 3
+  // [{src: egg}, {src: ll}, {src: ACF}] //Array 4
 ];
 
 /** Instructions
