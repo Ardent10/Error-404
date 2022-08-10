@@ -123,6 +123,8 @@ const TOP_SECTION = {
   DISCORD_LINK: "https://discord.com/invite/bsFUEdysfP",
   MENTOR_FORM_LINK:
     "https://tally.so#tally-open=mRGGJv&tally-layout=modal&tally-width=800&tally-overlay=1&tally-emoji-text=👋&tally-emoji-animation=wave",
+  REGISTER_LINK:
+    "",
   SPONSOR_FORM_LINK:
     "mailto:404error@getmicro.co"
 };
@@ -219,9 +221,9 @@ const Tracks =  [
 const Timeline = [
   {
       text: ' Opening Ceremony',
-      date: 'August 5th, 2022 ',
+      date: 'Aug 19th, 2022',
       category: {
-      tag: '5.30 PM',
+      tag: '5:30 PM',
       color: '#FFDB14'
     },
       link: {
@@ -231,9 +233,9 @@ const Timeline = [
   },
   {
       text: 'Hackathon Period Begins',
-      date: 'August 5th, 2022',
+      date: ' Aug 19th, 2022',
       category: {
-    tag: '7 PM',
+    tag: '7:00 PM',
     color: '#e17b77'
   },
       link: {
@@ -243,9 +245,9 @@ const Timeline = [
   },
   {
       text: 'Initial Evaluation Deadline',
-      date: 'August 7th, 2022',
+      date: 'August 21st, 2022',
       category: {
-    tag: '9 AM',
+    tag: '9:00 AM',
     color: '#1DA1F2'
   },
       link: {
@@ -256,9 +258,9 @@ const Timeline = [
   {
       text:
           'Hackathon Submission Period Ends',
-      date: 'August 8th, 2022',
+      date: 'August 22nd, 2022',
       category: {
-    tag: '7 PM',
+    tag: '7:00 PM',
     color: '#018f69'
   },
       link: {
@@ -269,9 +271,9 @@ const Timeline = [
   },
   {
       text: 'Top 20 Teams will be released',
-      date: 'August 10th,, 2022',
+      date: 'August 24th,, 2022',
       category: {
-    tag: ' 4 PM',
+    tag: ' 4:00 PM',
     color: 'red'
   },
       link: {
@@ -281,9 +283,9 @@ const Timeline = [
   },
   {
       text: 'Demonstration of Projects to Judges',
-      date: 'August 11th, 2022',
+      date: 'August 25th, 2022',
       category: {
-    tag: ' 4PM',
+    tag: ' 8:00 PM',
     color: 'orange'
   },
       link: {
@@ -293,9 +295,9 @@ const Timeline = [
   },
   {
       text: 'Results Declared on Closing Ceremony',
-      date: 'August 13th, 2022',
+      date: 'August 27th, 2022',
       category: {
-    tag: ' 7 PM',
+    tag: ' 7:00 PM',
     color: 'purple'
   },
       link: {
@@ -531,7 +533,7 @@ const frequentlyAskedQuestions  = [
       },
       {
         label: "I just graduated. Can I still join this event?",
-        content: "Yes, all the school and college students including the students graduated this year are invited. Even working professionals < 3 years and people who don't have a formal education are also welcomed."
+        content: "Yes, all the college students including the students graduated this year are invited. Even working professionals < 3 years and people who don't have a formal education are also welcomed."
       }
     ],
     [
@@ -558,7 +560,61 @@ const frequentlyAskedQuestions  = [
 
 ];
 
+const StudentPerks = [
+  [
+    //Array 1
+    {
+      icon: <i class="first fas fa-4x fa-trophy"></i>,
+      type: "Winner",
+      content: "7,500 Rs. cash prize",
+    },
+    {
+      icon: <i class=" second fas fa-4x fa-medal"></i>,
+      type: "2nd Place",
+      content: "5,000 Rs. cash prize",
+    },
+    {
+      icon: <i class=" third fas fa-4x fa-skiing-nordic"></i>,
+      type: "3rd Place",
+      content: "3,000 Rs. cash prize",
+    }
+  ],
+  [
+    //Array 2
+    {
+      icon: <i class="fab fourth fa-3x fa-wpbeginner"></i>,
+      type: "Independent Prize Category",
+      content: "Awarded with Swags",
+    },
+    {
+      icon: <i class="first fas fa-4x fa-trophy"></i>,
+      type: "For All",
+      content: "Appreciation Certificates to all Winner & Participants",
+    },
+    {
+      icon: <i class=" fifth fa-3x fas fa-book-open"></i>,
+      type: "For Selected",
+      content: "Additional Exciting Perks & Benefits from Sponsors",
+    }
+  ],
+  [
+    //Array 3
+    {
+      icon: <i class="fas fa-4x sixth fa-male"></i>,
+      type: "Attention",
+    content: "An Exclusive Hiring Opportunity for Participants to be considered for the interview process irrespective of being winners or not based on their skills and expertise.",
+    },
+  ]
+];
+
+
+const MentorPerks = [
+
+]
+
 export {
+  StudentPerks,
+  MentorPerks,
   TOP_SECTION,
   Navbar,
   MIDDLE_SECTION,

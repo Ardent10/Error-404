@@ -11,7 +11,7 @@ export default function Media() {
      
       <div className="single ">
         <a rel="noreferrer" target="_blank" href={SOCIALS.instagram}>
-        <SocialIcon url="https://instagram.com" fgColor="#fff" />
+        <SocialIcon url="https://www.instagram.com/getmicro.co/" fgColor="#fff" />
         </a>
       </div>
       <div className="single">

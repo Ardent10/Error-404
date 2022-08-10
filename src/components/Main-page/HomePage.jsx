@@ -16,6 +16,7 @@ import Footer from "../Footer/footer1.jsx";
 import {Member,} from "../team/team.jsx";
 import TimelineItem from "../Timeline/Timeline.jsx";
 import unstop from "../../Module/Assets/sponsorsLogos/unstop.svg";
+import streamyard from "../../Module/Assets/sponsorsLogos/streamyard.png";
 
 import {
   TOP_SECTION,
@@ -23,6 +24,8 @@ import {
   JudgesInfo,
   organizers,
   sponsorLogos,
+  StudentPerks,
+  MentorPerks,
   frequentlyAskedQuestions,
   Timeline,
 } from "../../Module/General";
@@ -171,6 +174,20 @@ export default function HomePage(props) {
           {Prizeinfo.map(PrizeGroup)}
         </Row>
         {/* ********Prizes ending here ***** */}
+        
+        {/* ********Prizes here ***** */}
+        <Row className="microsection">
+          <PrizeHeading type="Perks & Benefits" />
+          <hr className="hr"/>
+            
+            <Col className="info-div" sm={12} lg={8} md={8}>
+              
+            </Col>
+            <Row className="prizesection" id="prizes">
+              {StudentPerks.map(PrizeGroup)}
+            </Row>
+          </Row>
+        {/* ********Prizes ending here ***** */}
 
         {/* Micro */}
         <Row className="microsection" id="micro">
@@ -199,9 +216,19 @@ export default function HomePage(props) {
             <SponsorsHead />
 
             {/* <PrizeHeading type="TITLE SPONSORS" className="subheading" id="timeline"/> */}
-            <h1 className="subheading">TITLE SPONSORS</h1>
+            {/* <img src={unstop} className="unstop-logo" alt="unstop" /> */}
+            <h1 className="subheading">TITLE SPONSOR</h1>
             <hr className="hr"/>
-            <img src={unstop} className="unstop-logo" alt="unstop" />
+            <a href="https://unstop.com/">
+              <img src="https://d8it4huxumps7.cloudfront.net/uploads/images/unstop/svg/unstop-logo-white.svg" className="unstop-logo" alt="unstop" />
+            </a>
+            
+            <h1 className="subheading">STREAMING PARTNER</h1>
+            <hr className="hr"/>
+            {/* <img src="https://streamyard.com/static/img/0637d6d4f97338fe45dfb7a8e4d19753.svg" className="unstop-logo" alt="unstop" /> */}
+            <a href="https://streamyard.com/">
+              <img src={streamyard} className="streamyard-logo" alt="unstop" />
+            </a>
           {sponsorLogos.map(SponsorGroup)}
           </Row>
         </div>

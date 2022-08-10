@@ -292,12 +292,19 @@ top: -50px;
 }
 
 .unstop-logo{
+  cursor: pointer;
   width: 25rem;
   display: inline-block;
   margin: 3rem;
 }
+.streamyard-logo {
+  cursor: pointer;
+  width: 38rem;
+  display: inline-block;
+  margin: 3rem;
+}
 
-.unstop-logo{
+.unstop-logo ,.streamyard-logo{
  
   -webkit-animation: unstop 1s infinite  alternate;
   animation: unstop 1s infinite  alternate;

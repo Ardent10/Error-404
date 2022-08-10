@@ -36,7 +36,7 @@ function Myinfo() {
       <About />
       <p> 
         {/* {TOP_SECTION.SHORT_DESCRIPTION} */}
-        Join us on <span style={{color:'#F1507B'}}> 5th August, 2022 </span>
+        Join us on <span style={{color:'#F1507B'}}> 19th August, 2022 </span>
         with over 1000+ students from across the world 
         for 72 hours of creation, innovation & fun.
       </p>
@@ -56,10 +56,17 @@ function Myinfo() {
         {/* </Row> */}
 
       {/* This is top division buttons */}
-      <a href={TOP_SECTION.HACKERS_REGISTRATION_FORM_LINK}
+      {/* <a href={TOP_SECTION.HACKERS_REGISTRATION_FORM_LINK}
       >
         {" "}
         <Btn class="sponsor" type="Register" overlay="Fill the form" />
+      </a> */}
+
+      <a href={TOP_SECTION.SPONSOR_FORM_LINK}>
+        {" "}
+        <Btn 
+          class="register" type="Sponsors" overlay="Sponsor us" />
+        {/* top division buttons ends here */}
       </a>
       <a target="_blank" rel="noreferrer" href= {TOP_SECTION.DISCORD_LINK}
       >
@@ -68,18 +75,18 @@ function Myinfo() {
       </a>
 
       
-      <a href=
+      {/* <a href=
         {TOP_SECTION.MENTOR_FORM_LINK}>
         {" "}
         <Btn class="sponsor" type="Call for Mentor's" overlay="Guide the students" />
+      </a> */}
+      
+      <a href=
+        {TOP_SECTION.REGISTER_LINK}>
+        {" "}
+        <Btn class="sponsor-register" type="Register Here" overlay="Hurry Up join now." />
       </a>
 
-      <a href={TOP_SECTION.SPONSOR_FORM_LINK}>
-        {" "}
-        <Btn 
-          class="register" type="Sponsors" overlay="Sponsor us" />
-        {/* top division buttons ends here */}
-      </a>
       </div>
 
 
