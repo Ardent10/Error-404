@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/Error-404/static/css/main.ec95dc6a.chunk.css",
-    "main.js": "/Error-404/static/js/main.5438ce34.chunk.js",
-    "main.js.map": "/Error-404/static/js/main.5438ce34.chunk.js.map",
+    "main.css": "/Error-404/static/css/main.6c40d711.chunk.css",
+    "main.js": "/Error-404/static/js/main.6e528fac.chunk.js",
+    "main.js.map": "/Error-404/static/js/main.6e528fac.chunk.js.map",
     "runtime-main.js": "/Error-404/static/js/runtime-main.6e33d284.js",
     "runtime-main.js.map": "/Error-404/static/js/runtime-main.6e33d284.js.map",
-    "static/js/2.76458af5.chunk.js": "/Error-404/static/js/2.76458af5.chunk.js",
-    "static/js/2.76458af5.chunk.js.map": "/Error-404/static/js/2.76458af5.chunk.js.map",
+    "static/js/2.68f7ff43.chunk.js": "/Error-404/static/js/2.68f7ff43.chunk.js",
+    "static/js/2.68f7ff43.chunk.js.map": "/Error-404/static/js/2.68f7ff43.chunk.js.map",
     "index.html": "/Error-404/index.html",
-    "static/css/main.ec95dc6a.chunk.css.map": "/Error-404/static/css/main.ec95dc6a.chunk.css.map",
-    "static/js/2.76458af5.chunk.js.LICENSE.txt": "/Error-404/static/js/2.76458af5.chunk.js.LICENSE.txt",
+    "static/css/main.6c40d711.chunk.css.map": "/Error-404/static/css/main.6c40d711.chunk.css.map",
+    "static/js/2.68f7ff43.chunk.js.LICENSE.txt": "/Error-404/static/js/2.68f7ff43.chunk.js.LICENSE.txt",
     "static/media/1pass.fe1b7aaa.png": "/Error-404/static/media/1pass.fe1b7aaa.png",
     "static/media/404.f1fa1760.png": "/Error-404/static/media/404.f1fa1760.png",
     "static/media/ACF.896fe374.png": "/Error-404/static/media/ACF.896fe374.png",
     "static/media/AbhayKumar.397ce1f2.jpeg": "/Error-404/static/media/AbhayKumar.397ce1f2.jpeg",
-    "static/media/Error 404 Mentor's Guide.899f3ced.pdf": "/Error-404/static/media/Error 404 Mentor's Guide.899f3ced.pdf",
-    "static/media/Error 404 Participant's Guide.4f347b11.pdf": "/Error-404/static/media/Error 404 Participant's Guide.4f347b11.pdf",
-    "static/media/Error 404 Sponsor's Guide.98621bc9.pdf": "/Error-404/static/media/Error 404 Sponsor's Guide.98621bc9.pdf",
+    "static/media/Error 404 Mentor's Guide.165df3d8.pdf": "/Error-404/static/media/Error 404 Mentor's Guide.165df3d8.pdf",
+    "static/media/Error 404 Participant's Guide.a88240dc.pdf": "/Error-404/static/media/Error 404 Participant's Guide.a88240dc.pdf",
+    "static/media/Error 404 Sponsor's Guide.582a936a.pdf": "/Error-404/static/media/Error 404 Sponsor's Guide.582a936a.pdf",
     "static/media/SiddhantPawar.583917cb.jpeg": "/Error-404/static/media/SiddhantPawar.583917cb.jpeg",
     "static/media/YashKataria.f33d4dc1.jpeg": "/Error-404/static/media/YashKataria.f33d4dc1.jpeg",
     "static/media/ar.13f2b090.jpeg": "/Error-404/static/media/ar.13f2b090.jpeg",
@@ -42,6 +42,7 @@
     "static/media/sponsor.fe2b8a4d.jpg": "/Error-404/static/media/sponsor.fe2b8a4d.jpg",
     "static/media/sr.b3c5eedb.jpeg": "/Error-404/static/media/sr.b3c5eedb.jpeg",
     "static/media/stint1.8f668210.png": "/Error-404/static/media/stint1.8f668210.png",
+    "static/media/streamyard.9d5f3e5a.png": "/Error-404/static/media/streamyard.9d5f3e5a.png",
     "static/media/sublime.7b96cd96.png": "/Error-404/static/media/sublime.7b96cd96.png",
     "static/media/taskade.ac444bbc.png": "/Error-404/static/media/taskade.ac444bbc.png",
     "static/media/unstop.623ed5db.svg": "/Error-404/static/media/unstop.623ed5db.svg",
@@ -50,8 +51,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.6e33d284.js",
-    "static/js/2.76458af5.chunk.js",
-    "static/css/main.ec95dc6a.chunk.css",
-    "static/js/main.5438ce34.chunk.js"
+    "static/js/2.68f7ff43.chunk.js",
+    "static/css/main.6c40d711.chunk.css",
+    "static/js/main.6e528fac.chunk.js"
   ]
 }
