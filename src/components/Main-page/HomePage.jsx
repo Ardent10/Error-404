@@ -179,13 +179,20 @@ export default function HomePage(props) {
         <Row className="microsection">
           <PrizeHeading type="Perks & Benefits" />
           <hr className="hr"/>
-            
-            <Col className="info-div" sm={12} lg={8} md={8}>
-              
-            </Col>
+
+            <h1 className="subheading">Participants</h1>
+            <hr className="hr"/>
             <Row className="prizesection" id="prizes">
               {StudentPerks.map(PrizeGroup)}
             </Row>
+            
+            <h1 className="subheading">Mentors</h1>
+            <hr className="hr"/>
+            <Row className="prizesection" id="prizes">
+              {MentorPerks.map(PrizeGroup)}
+            </Row>
+
+
           </Row>
         {/* ********Prizes ending here ***** */}
 

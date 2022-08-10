@@ -609,7 +609,33 @@ const StudentPerks = [
 
 
 const MentorPerks = [
-
+  [
+    //Array 1
+    {
+      icon: <i class="first fas fa-4x fa-trophy"></i>,
+      type: "",
+      content: "Appreciation Certificates to the Top 2 Mentors",
+    },
+    {
+      icon: <i class=" second fas fa-4x fa-medal"></i>,
+      type: "",
+      content: "Participation Certificates to all the mentors who had impacted our participants with their time and efforts.",
+    },
+    {
+      icon: <i class=" third fas fa-4x fa-skiing-nordic"></i>,
+      type: "",
+      content: "An Exclusive Hiring Opportunity to Mentors irrespective of being best or not based on their skills",
+    }
+  ],
+  [
+    //Array 1
+    {
+      icon: <i class="first fas fa-4x fa-trophy"></i>,
+      type: "",
+      content: "Additional Exciting Perks & Benefits from Sponsors",
+    },
+   
+  ],
 ]
 
 export {
