@@ -71,7 +71,7 @@ export default function Contact(){
             </div>
             {/* <input type="submit" value="Send" class="btn"> */}
             <button type="submit" className="btn">
-              <a className='btn-a'  href="mailto:404error@getmicro.co">Send</a>
+              <a className='btn-a'  href="mailto:prathima@getmicro.co">Send</a>
             </button>
             
           </form>
