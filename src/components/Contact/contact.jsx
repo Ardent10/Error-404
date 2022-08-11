@@ -25,7 +25,7 @@ export default function Contact(){
                 <EmailIcon className='icon'/> 
               <h4 >
               {/* <img src= "" class="icon" alt="" /> */}
-                <a style={{'color':'#f76e92'}} href="mailto:404error@getmicro.co">404error@getmicro.co</a>
+                <a style={{'color':'#f76e92'}} href="mailto:404error@getmicro.co">prathima@getmicro.co</a>
               </h4>
             </div>
             <div class="information">

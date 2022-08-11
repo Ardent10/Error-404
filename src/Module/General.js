@@ -271,7 +271,7 @@ const Timeline = [
   },
   {
       text: 'Top 20 Teams will be released',
-      date: 'August 24th,, 2022',
+      date: 'August 24th, 2022',
       category: {
     tag: ' 4:00 PM',
     color: 'red'

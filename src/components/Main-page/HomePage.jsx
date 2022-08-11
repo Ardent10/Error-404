@@ -193,6 +193,9 @@ export default function HomePage(props) {
 
             <h1 className="subheading">Participants</h1>
             <hr className="hr"/>
+
+            <Row>
+
             <Row className="prizesection" id="prizes">
               {StudentPerks.map((s,idx)=>{
                 console.log(s)
@@ -217,6 +220,7 @@ export default function HomePage(props) {
                     </Row>                    
                 );
               })}
+            </Row>
             </Row>
 
 
