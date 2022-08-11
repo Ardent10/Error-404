@@ -304,6 +304,24 @@ top: -50px;
   margin: 3rem;
 }
 
+.perks-container{
+  text-align: left;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin: 30px 0;
+}
+.perks-h1{
+ color: #ffff;
+ font-size: 26px;
+ margin: 0px 15px;
+}
+.perks-p{
+  color: #ffff;
+  margin: 0;
+  
+}
+
 .unstop-logo ,.streamyard-logo{
  
   -webkit-animation: unstop 1s infinite  alternate;

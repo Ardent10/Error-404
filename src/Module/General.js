@@ -119,10 +119,10 @@ const TOP_SECTION = {
     "Join us on 15th July, 2022 with over 1000+ students from across the world for 72 hours of creation, innovation & fun.",
   SHORT_DESCRIPTION_DATE: "15th July, 2022",
     IMG_SRC: boy,
-  HACKERS_REGISTRATION_FORM_LINK: "https://tally.so#tally-open=3q45gO&tally-layout=modal&tally-width=800&tally-overlay=1&tally-emoji-text=👋&tally-emoji-animation=wave",
+  HACKERS_REGISTRATION_FORM_LINK: "https://unstop.com/hackathon/error404-hackathon-participant-registration-error404-hackathon-micro-organization-402775",
   DISCORD_LINK: "https://discord.com/invite/bsFUEdysfP",
   MENTOR_FORM_LINK:
-    "https://tally.so#tally-open=mRGGJv&tally-layout=modal&tally-width=800&tally-overlay=1&tally-emoji-text=👋&tally-emoji-animation=wave",
+    "https://unstop.com/hackathon/error404-hackathon-mentor-registration-micro-organization-402780",
   REGISTER_LINK:
     "",
   SPONSOR_FORM_LINK:
@@ -227,7 +227,7 @@ const Timeline = [
       color: '#FFDB14'
     },
       link: {
-          url: 'https://meet.google.com/',
+          url: 'https://streamyard.com/fwky7uiawu',
           text: 'Meet Link'
       }
   },
@@ -301,7 +301,7 @@ const Timeline = [
     color: 'purple'
   },
       link: {
-          url: 'https://meet.google.com/',
+          url: 'https://streamyard.com/k94us9a696',
           text: 'Meet Link'
       }
   }
@@ -561,7 +561,7 @@ const frequentlyAskedQuestions  = [
 ];
 
 const StudentPerks = [
-  [
+  
     //Array 1
     {
       icon: <i class="first fas fa-4x fa-trophy"></i>,
@@ -578,8 +578,8 @@ const StudentPerks = [
       type: "3rd Place",
       content: "3,000 Rs. cash prize",
     }
-  ],
-  [
+  ,
+  
     //Array 2
     {
       icon: <i class="fab fourth fa-3x fa-wpbeginner"></i>,
@@ -588,28 +588,75 @@ const StudentPerks = [
     },
     {
       icon: <i class="first fas fa-4x fa-trophy"></i>,
-      type: "For All",
+      type: "",
       content: "Appreciation Certificates to all Winner & Participants",
     },
     {
       icon: <i class=" fifth fa-3x fas fa-book-open"></i>,
-      type: "For Selected",
+      type: "",
       content: "Additional Exciting Perks & Benefits from Sponsors",
     }
-  ],
-  [
+  ,
+  
     //Array 3
     {
       icon: <i class="fas fa-4x sixth fa-male"></i>,
-      type: "Attention",
+      type: "",
     content: "An Exclusive Hiring Opportunity for Participants to be considered for the interview process irrespective of being winners or not based on their skills and expertise.",
     },
-  ]
+  
 ];
+
+// const StudentPerks = [
+//   [
+//     //Array 1
+//     {
+//       icon: <i class="first fas fa-4x fa-trophy"></i>,
+//       type: "Winner",
+//       content: "7,500 Rs. cash prize",
+//     },
+//     {
+//       icon: <i class=" second fas fa-4x fa-medal"></i>,
+//       type: "2nd Place",
+//       content: "5,000 Rs. cash prize",
+//     },
+//     {
+//       icon: <i class=" third fas fa-4x fa-skiing-nordic"></i>,
+//       type: "3rd Place",
+//       content: "3,000 Rs. cash prize",
+//     }
+//   ],
+//   [
+//     //Array 2
+//     {
+//       icon: <i class="fab fourth fa-3x fa-wpbeginner"></i>,
+//       type: "Independent Prize Category",
+//       content: "Awarded with Swags",
+//     },
+//     {
+//       icon: <i class="first fas fa-4x fa-trophy"></i>,
+//       type: "For All",
+//       content: "Appreciation Certificates to all Winner & Participants",
+//     },
+//     {
+//       icon: <i class=" fifth fa-3x fas fa-book-open"></i>,
+//       type: "For Selected",
+//       content: "Additional Exciting Perks & Benefits from Sponsors",
+//     }
+//   ],
+//   [
+//     //Array 3
+//     {
+//       icon: <i class="fas fa-4x sixth fa-male"></i>,
+//       type: "Attention",
+//     content: "An Exclusive Hiring Opportunity for Participants to be considered for the interview process irrespective of being winners or not based on their skills and expertise.",
+//     },
+//   ]
+// ];
 
 
 const MentorPerks = [
-  [
+  
     //Array 1
     {
       icon: <i class="first fas fa-4x fa-trophy"></i>,
@@ -626,8 +673,8 @@ const MentorPerks = [
       type: "",
       content: "An Exclusive Hiring Opportunity to Mentors irrespective of being best or not based on their skills",
     }
-  ],
-  [
+  ,
+  
     //Array 1
     {
       icon: <i class="first fas fa-4x fa-trophy"></i>,
@@ -635,8 +682,38 @@ const MentorPerks = [
       content: "Additional Exciting Perks & Benefits from Sponsors",
     },
    
-  ],
+  ,
 ]
+
+// const MentorPerks = [
+//   [
+//     //Array 1
+//     {
+//       icon: <i class="first fas fa-4x fa-trophy"></i>,
+//       type: "",
+//       content: "Appreciation Certificates to the Top 2 Mentors",
+//     },
+//     {
+//       icon: <i class=" second fas fa-4x fa-medal"></i>,
+//       type: "",
+//       content: "Participation Certificates to all the mentors who had impacted our participants with their time and efforts.",
+//     },
+//     {
+//       icon: <i class=" third fas fa-4x fa-skiing-nordic"></i>,
+//       type: "",
+//       content: "An Exclusive Hiring Opportunity to Mentors irrespective of being best or not based on their skills",
+//     }
+//   ],
+//   [
+//     //Array 1
+//     {
+//       icon: <i class="first fas fa-4x fa-trophy"></i>,
+//       type: "",
+//       content: "Additional Exciting Perks & Benefits from Sponsors",
+//     },
+   
+//   ],
+// ]
 
 export {
   StudentPerks,

@@ -6,6 +6,10 @@ import LOADER from "./components/Loading/loading.jsx";
 const rootElement = document.getElementById("body");
 const footer = document.getElementById("footer");
 
+// console.log = ()=>{}
+// console.error = () => {}
+// console.debug = () => {}
+
 ReactDOM.render(
   <div>
     <NAV />

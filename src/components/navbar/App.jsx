@@ -52,7 +52,7 @@ const NAVBAR = () => {
 
   useEffect(() => {
     window.addEventListener("scroll", listenScrollEvent);
-    console.log(navigation);
+    // console.log(navigation);
   }, []);
 
 
@@ -68,7 +68,7 @@ const NAVBAR = () => {
             <ul  className={toggle? "nav-content" : "nav-menu active"} >
               {Navbar.map((item,index)=>{
                   return (
-                    <li id={index}>
+                    <li id={index} key={index}>
                     <a href={item.url}>
                       <span className={item.class}>{item.title}</span>{" "}
                     </a>

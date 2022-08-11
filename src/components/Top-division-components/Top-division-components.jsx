@@ -56,36 +56,36 @@ function Myinfo() {
         {/* </Row> */}
 
       {/* This is top division buttons */}
-      {/* <a href={TOP_SECTION.HACKERS_REGISTRATION_FORM_LINK}
+      <a href={TOP_SECTION.HACKERS_REGISTRATION_FORM_LINK} target="_blank" rel="noopener noreferrer"
       >
         {" "}
-        <Btn class="sponsor" type="Register" overlay="Fill the form" />
-      </a> */}
+        <Btn class="register" type="Register" overlay="Fill the form" />
+      </a>
 
-      <a href={TOP_SECTION.SPONSOR_FORM_LINK}>
+      <a href=
+        {TOP_SECTION.MENTOR_FORM_LINK} target="_blank" rel="noopener noreferrer"> 
+        {" "}
+        <Btn class="sponsor" type="Call for Mentor's" overlay="Guide the students" />
+      </a>
+      
+      <a href= {TOP_SECTION.DISCORD_LINK} target="_blank" rel="noopener noreferrer">
+        {" "}
+        <Btn class="register" type="Join Discord" overlay="Stay updated" />
+      </a>
+
+      <a href={TOP_SECTION.SPONSOR_FORM_LINK} target="_blank" rel="noopener noreferrer">
         {" "}
         <Btn 
           class="register" type="Sponsors" overlay="Sponsor us" />
         {/* top division buttons ends here */}
       </a>
-      <a target="_blank" rel="noreferrer" href= {TOP_SECTION.DISCORD_LINK}
-      >
-        {" "}
-        <Btn class="register" type="Join Discord" overlay="Stay updated" />
-      </a>
 
       
       {/* <a href=
-        {TOP_SECTION.MENTOR_FORM_LINK}>
-        {" "}
-        <Btn class="sponsor" type="Call for Mentor's" overlay="Guide the students" />
-      </a> */}
-      
-      <a href=
         {TOP_SECTION.REGISTER_LINK}>
         {" "}
         <Btn class="sponsor-register" type="Register Here" overlay="Hurry Up join now." />
-      </a>
+      </a> */}
 
       </div>
 

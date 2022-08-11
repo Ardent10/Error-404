@@ -63,6 +63,17 @@ function PrizeGroup(props) {
     </Row>
   );
 }
+function PerksGroup(props) {
+  return (
+    <Row>
+      {props.map(s => (
+        <Col className="" sm={12} lg={4} md={4}>
+          <FirstPrize icon={s.icon} type={s.type} content={s.content} />
+        </Col>
+      ))}
+    </Row>
+  );
+}
 
 // Prize group ending
 function TeamMembers(props) {
@@ -183,13 +194,29 @@ export default function HomePage(props) {
             <h1 className="subheading">Participants</h1>
             <hr className="hr"/>
             <Row className="prizesection" id="prizes">
-              {StudentPerks.map(PrizeGroup)}
+              {StudentPerks.map((s,idx)=>{
+                console.log(s)
+                return (                  
+                    <Row key={idx} className="perks-container">
+                      <h1 className="perks-h1">🌟 {s.type} </h1>
+                      <p className="perks-p">{s.content}</p>
+                    </Row>                    
+                );
+              })}
             </Row>
             
             <h1 className="subheading">Mentors</h1>
             <hr className="hr"/>
             <Row className="prizesection" id="prizes">
-              {MentorPerks.map(PrizeGroup)}
+              {MentorPerks.map((s,idx)=>{
+                console.log(s)
+                return (                  
+                    <Row key={idx} className="perks-container">
+                      <h1 className="perks-h1">🌟 {s.type} </h1>
+                      <p className="perks-p">{s.content}</p>
+                    </Row>                    
+                );
+              })}
             </Row>
 
 
